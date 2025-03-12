@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>DaVaR</translationContributors>
+    <texts>
+        <text name="REAL_TIME_SYNC_MENU"            text="Echtzeit-Synchronisation" />
+        <text name="input_REAL_TIME_SYNC_MENU"            text="Echtzeit-Synchronisation" />
+
+	      <text name="title_realTimeSync"                   text="Echtzeit-Synchronisation" />
+        <text name="title_realTimeSync_title"             text="Echtzeit-Synchronisation" />
+
+        <text name="setting_realTimeSync_serverOffset"    text="Spielzeitverschiebung" />
+        <text name="toolTip_realTimeSync_serverOffset"    text="Verschiebt die Spielzeit von der UTC-Zeit in Stunden." />
+        
+        <text name="setting_realTimeSync_timeFixHour"     text="Spielzeit-Fix-Stunde" />
+        <text name="toolTip_realTimeSync_timeFixHour"     text="Begrenzen Sie die Serverzeit auf eine bestimmte Stunde, die sich nach der Spielzeit richtet.  Die Zeit wird immer angepasst." />
+
+        <text name="setting_realTimeSync_autoSetTime"     text="Spielzeit" />
+        <text name="toolTip_realTimeSync_autoSetTime"     text="Erlaube Spielzeit, wenn mehr als 5 Minuten voraus, anstatt die Zeit zu verlangsamen. Springt auf den nächsten Tag." />
+
+        <text name="setting_realTimeSync_enableTimeSync"  text="Echtzeit-Synchronisation" />
+        <text name="toolTip_realTimeSync_enableTimeSync"  text="Schalten Sie Real Time Sync ein oder aus." />
+
+        <text name="title_realTimeSync_inProgress" text="Zeitsynchronisation läuft - Zielzeit: " />
+        <text name="title_realTimeSync_setInProgress" text="Zeitsynchronisation läuft - Zeit wird auf: " />
+
+        <text name="setting_realTimeSync_timeSyncEnable"  text="Echtzeit-Synchronisation" />
+        <text name="toolTip_realTimeSync_timeSyncEnable"  text="Schalten Sie Real Time Sync ein oder aus." />
+
+        <text name="setting_realTimeSync_progressNotification"    text="Zeitsynchronisationsbenachrichtigung" />
+        <text name="toolTip_realTimeSync_progressNotification"    text="Aktivieren oder deaktivieren Sie die Zeitsynchronisationsbenachrichtigung, die Sie darüber informiert, dass die Zeitsynchronisation läuft." />
+
+        <text name="ui_settings_info" text="Echtzeit-Synchronisationsinformationen" />
+        <text name="ui_settings_info_1" text="Willkommen bei Real Time Sync.  Diese Mod macht es möglich, die Spielzeit mit der realen Zeit zu synchronisieren, mit einem festgelegten Offset." />
+        <text name="ui_settings_info_2" text="Dieses System synchronisiert sich mit einem UTC-Offset.  Die meisten Server verwenden -5 für die EU und -11 für die USA.  Dadurch ist die Tageszeit im Spiel früher am Tag, wenn die meisten Spieler von der Arbeit kommen und das Spiel spielen." />
+        <text name="ui_settings_info_3" text="Es wird nicht empfohlen, dieses System im Einzelspieler-Modus zu verwenden.  Wenn Sie das tun, müssen Sie es ausschalten, um zum nächsten Tag vorzuspulen.  Diese Mod ist nicht intelligent genug, um zu wissen, was der Tag im wirklichen Leben ist." />
+
+        <text name="ui_rtsSettingsNoPermissionText" text="Nur Admins können diese Einstellungen ändern." />
+
+    </texts>
+</l10n>

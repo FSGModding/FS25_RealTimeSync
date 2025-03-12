@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="93">
+    <author>FSG Modding - FSG DaVaR</author>
+    <contributors>JTSage, Myrithis</contributors>
+    <version>1.0.0.1</version>
+    <title>
+      <en>Real Time Sync</en>
+      <de>Echtzeit-Synchronisation</de>
+    </title>
+<description>
+<en><![CDATA[This mod allow the ability to synchronize game time to real life time on single player and multiplayer servers.
+
+Auto synchronization can be turned on or off at any time, and can be set as always or limited to only update at a set hour.
+
+Game time is synchronized based on realtime UTC time. UTC time offset can can be set to offset the game time from UTC to match any timezone.
+
+If the game is behind, it will auto fast forward to match. If ahead it will slow down until matched. Can set to auto set time if more than 15 min behind.
+
+Sleep is disabled while this mod is active.
+
+Left Ctrl + / to open the menu. It can be rebound if wanted via key bind menu.
+
+Changelog 
+1.0.0.1
+- Updated how the set time function works so that it stays with same day when updating the time.]]></en>
+<de><![CDATA[Dieser Mod ermöglicht die Synchronisierung der Spielzeit mit der realen Zeit auf Einzelspieler- und Mehrspieler-Servern.
+
+Die automatische Synchronisierung kann jederzeit ein- oder ausgeschaltet werden, und kann so eingestellt werden, dass sie immer oder nur zu einer bestimmten Stunde aktualisiert wird.
+
+Die Spielzeit wird auf der Grundlage der UTC-Echtzeit synchronisiert. Die UTC-Zeitverschiebung kann so eingestellt werden, dass die Spielzeit von der UTC-Zeit abweicht, um mit jeder Zeitzone übereinzustimmen.
+
+Wenn das Spiel im Rückstand ist, wird es automatisch vorgespult, bis es passt. Wenn es voraus ist, wird es langsamer, bis es angepasst ist. Es kann eingestellt werden, dass die Zeit automatisch eingestellt wird, wenn man mehr als 15 Minuten zurückliegt.
+
+Der Schlafmodus ist deaktiviert, solange dieser Mod aktiv ist.
+
+Strg links + / zum Öffnen des Menüs. Es kann auf Wunsch über das Tastenbelegungsmenü neu festgelegt werden.
+
+Änderungsliste 
+1.0.0.1
+- Die Funktion zum Einstellen der Uhrzeit wurde aktualisiert, so dass sie beim Aktualisieren der Uhrzeit am selben Tag bleibt.]]></de>
+</description>
+    <iconFilename>icon_RealTimeSync.dds</iconFilename>
+    <multiplayer supported="true" />
+    <extraSourceFiles>
+        <sourceFile filename="scripts/main.lua"/>
+    </extraSourceFiles>
+    <actions>
+        <action name="REAL_TIME_SYNC_MENU" category="SYSTEM" axisType="HALF" ignoreComboMask="false" />
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="REAL_TIME_SYNC_MENU">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_slash" />
+        </actionBinding>
+    </inputBinding>
+    <l10n filenamePrefix="lang/l10n" />
+</modDesc>

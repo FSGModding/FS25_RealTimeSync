@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>DaVaR</translationContributors>
+    <texts>
+        <text name="REAL_TIME_SYNC_MENU"            text="Real Time Sync" />
+        <text name="input_REAL_TIME_SYNC_MENU"            text="Real Time Sync" />
+
+	      <text name="title_realTimeSync"                   text="Real Time Sync Settings" />
+        <text name="title_realTimeSync_title"             text="Real Time Sync" />
+
+        <text name="setting_realTimeSync_serverOffset"    text="Game Time Offset" />
+        <text name="toolTip_realTimeSync_serverOffset"    text="Offset the game time from UTC time in hours." />
+        
+        <text name="setting_realTimeSync_timeFixHour"     text="Game Time Fix Hour" />
+        <text name="toolTip_realTimeSync_timeFixHour"     text="Limit server time to auto fix to a set hour based on in game time.  Always will keep time matched." />
+
+        <text name="setting_realTimeSync_autoSetTime"     text="Game Set Time" />
+        <text name="toolTip_realTimeSync_autoSetTime"     text="Allow game set time when more than 5 min ahead instead of slowing time down. Skips to next day." />
+
+        <text name="setting_realTimeSync_enableTimeSync"  text="Real Time Sync" />
+        <text name="toolTip_realTimeSync_enableTimeSync"  text="Turn Real Time Sync On or Off." />
+
+        <text name="title_realTimeSync_inProgress" text="Time Sync In Progress - Target time: " />
+        <text name="title_realTimeSync_setInProgress" text="Time Sync In Progress - Time set to: " />
+
+        <text name="setting_realTimeSync_timeSyncEnable"  text="Real Time Sync" />
+        <text name="toolTip_realTimeSync_timeSyncEnable"  text="Turn Real Time Sync On or Off." />
+
+        <text name="setting_realTimeSync_progressNotification"    text="Time Sync Notification" />
+        <text name="toolTip_realTimeSync_progressNotification"    text="Enable or disable the time sync notification that lets you know when time sync is in progress." />
+
+        <text name="ui_settings_info" text="Real Time Sync Info" />
+        <text name="ui_settings_info_1" text="Welcome to Real Time Sync.  This mod makes it possible to synchronize the game time with real life time at a set offset." />
+        <text name="ui_settings_info_2" text="This system will synchronize to a UTC offset.  Most servers use -5 for EU and -11 for US.  This puts day time in game to be earlier in the day for when most players get off work and play the game." />
+        <text name="ui_settings_info_3" text="It is not suggested to use this system with single player.  If you do, you will have to turn it off to fast forward to the next day.  This mod is not smart enough to know what the real life day is." />
+
+        <text name="ui_rtsSettingsNoPermissionText" text="Only Admins can alter these settings." />
+
+    </texts>
+</l10n>
